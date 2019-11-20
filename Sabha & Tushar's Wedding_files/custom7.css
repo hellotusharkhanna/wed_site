@@ -743,12 +743,12 @@ height:40px 以上比較保險;
 	height:100%;
 
 	background:url(images/tush_in.png) no-repeat 37% fixed;
-	/* background-repeat:no-repeat,no-repeat,repeat; */
-	background-size:cover;
+	background: center center url(images/tush_in.png),linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0), rgba(0,0,0,0.9)),center center url(images/tush_in.png);
+	background-repeat:no-repeat,no-repeat,repeat;
+	background-size:contain,cover,contain;
 
 	margin: auto; 
 	z-index:300;
-	/* transform: rotate(-90deg); */
   -webkit-animation-duration: 1.6s;
   -moz-animation-duration: 1.6s;
   -ms-animation-duration: 1.6s;
