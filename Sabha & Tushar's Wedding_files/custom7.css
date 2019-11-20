@@ -736,3 +736,21 @@ height:40px 以上比較保險;
 
 /*====內容外框 End====*/
 
+#loading_bg {
+    
+    	
+	width:100vh;
+	height:100%;
+
+	background:url(images/tush_in.png) no-repeat 37% fixed;
+	/* background-repeat:no-repeat,no-repeat,repeat; */
+	background-size:cover;
+
+	margin: auto; 
+	z-index:300;
+	/* transform: rotate(-90deg); */
+  -webkit-animation-duration: 1.6s;
+  -moz-animation-duration: 1.6s;
+  -ms-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+}
